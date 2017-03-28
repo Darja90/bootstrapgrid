@@ -1,0 +1,247 @@
+body {
+	font-family: 'Montserrat';
+}
+
+.green-bg {
+	position: relative;
+}
+.green-bg-left:before {
+	content:'';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 68px;
+	height: 21px;
+	background-color: #7beec7;
+	z-index: -1;
+}
+.green-bg span{
+	display:inline-block;
+}
+.green-bg-cnt span:before {
+	content:'';
+	position: absolute;
+	display:inline-block;
+	margin-top:24px;
+	width: 68px;
+	height: 21px;
+	background-color: #7beec7;
+	z-index: -1;
+}
+
+.opener {
+	background: url("../img/bg.jpg") center center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 130px;
+}
+
+.bg-other {
+	background: url("../img/tr-bg.png") center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 2;
+	height: 500px;
+	opacity: .6;
+}
+
+.main-header {
+	margin-top: 250px;
+	color: #5F5F6E;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	}
+
+.nav {
+	margin-left: 46%;
+}	
+
+.nav li {
+	list-style: none;
+	position: relative;
+	display: inline;
+	color: #5F5F6E;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 48px;
+}	
+
+.intro_header {
+	color: #5F5F6E;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: left;
+}	
+
+.intro-sub {
+	color: #5F5F6E;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.intro-text,
+.ben-text {
+	font-family: OpenSans;
+	color:  rgba(96, 96, 110, 0.5);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+}
+
+.benefits,
+.team-header {
+	color: #5F5F6E;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.benefits-text,
+.team-text {
+	font-family: OpenSans;
+	color:  rgba(96, 96, 110, 0.5);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.ben-sb {
+	color: #5F5F6E;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px; 
+	text-align: left;
+	text-transform: uppercase;
+}
+.ben-sb  .ben-sb-text{
+	margin-left:60px;
+	display:inline-block;
+}
+.green-icon{
+	width:41px;
+	height:41px;
+	display:block;
+	position:absolute;
+	background-image:url(../img/icons_sprite.png);
+	background-repeat:repeat;
+}
+.icon-phone{
+	background-position:0px 0px;
+}
+.icon-endless{
+	background-position:0px -36px;
+}
+.icon-wp{
+	background-position:0px -112px;
+}
+.icon-cart{
+	background-position:0px -74px;
+}
+.icon-eq{
+	background-position:0px -151px;
+}
+.icon-tools{
+	background-position:0px -189px;
+}
+
+.upper-row {
+ margin-bottom: 30px;
+}
+
+.footer {
+	background-color:  #7beec7;
+	height: 330px;
+	margin-top: 35px;
+}
+
+.footer-contact {
+	font-family: 'Montserrat';
+    color:  #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: -45px;
+	margin-bottom: 40px;
+}
+
+.contact-btn {
+background-color:  #ffffff;
+color: #7beec7;
+text-transform: uppercase;
+padding: 20px 35px;
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+text-decoration: none;
+}
+
+.disclaimer {
+	background-color: #fff;
+	margin-top: 50px;
+	height: 230px;
+}
+
+.header-discl {
+	font-family: 'Montserrat';
+	color: #676776;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: left;
+}
+
+.discl-text {
+font-family: 'OpenSans';
+color:  #999999;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+padding-bottom: 20px;
+}
+
+.form-input {
+	font-family:'Montserrat';
+	position: relative;
+	color:  #cdcdcd;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: left;
+	padding:10px;
+	width: 350px;
+	height: 46px;
+}
+
+.form-submit {
+	background-color:  #7beec7;
+	position: absolute;
+	width: 135px;
+	height: 46px;
+	font-family: 'Montserrat';
+	color:  #ffffff;
+	font-size: 14px;	
+	font-weight: 700;
+	line-height: 48px;	
+	text-align: center;
+	border: none;
+}
